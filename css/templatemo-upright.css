@@ -193,7 +193,7 @@ hr { border-top: 4px solid #CCC; }
 .tm-img-home-container {
 	width: 250px;
 	height: 500px;
-	background: url(../img/img-home-01.jpg) no-repeat center;
+	/* background: url(../img/me1.jpg) no-repeat center; */
 	background-size: cover;
 	margin-right: 0;
 	margin-left: auto;
@@ -228,37 +228,6 @@ hr { border-top: 4px solid #CCC; }
 .tm-post-link:hover {
 	color: #068ccf;
 }
-
-/* Gallery section */
-.tm-gallery {
-	position: relative;
-	margin: 0 -10px;
-	list-style: none;
-	text-align: center;
-	overflow: hidden;
-}
-
-.tm-gallery-links {
-	padding-left: 0;
-    display: flex;
-	flex-wrap: wrap;
-	margin-left: -15px;
-	margin-bottom: 0;
-}
-
-.tm-gallery-links li {
-	list-style: none;
-	margin-bottom: 30px;
-	margin-right: 55px;
-}
-
-.tm-gallery-link {
-	padding: 15px;
-	color: #006699;	
-}
-
-.tm-gallery-link.active { color: #666666; }
-.tm-gallery-link-icon { width: 25px; }
 
 .tm-paging {
 	margin-top: 35px;
