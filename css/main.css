@@ -6,7 +6,7 @@ body, input, select, textarea {
     color: white;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     font-size: 17pt;
-    font-weight: 600;   
+    font-weight: 600;
     letter-spacing: 0.025em;
     line-height: 1.65;
     height: 100vh;
@@ -15,41 +15,43 @@ body, input, select, textarea {
 strong {
     font-weight: bold;
 }
+
 h1 {
     color: black;
-    text-align: left;
     font-size: 2.5em;
     font-weight: bold;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 p {
-  font-family: verdana;
-  font-size: 20px;
+    font-family: inherit;
+    font-size: 20px;
+    text-align: center;
 }
 
 #intro{
-    height: 100%;
+    display: grid;
+    grid-template-rows: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #intro-block{
     font-size: .6em;
+    background: darkgrey;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 30%;
-    text-indent: 10%;
-    height: 300%;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
 }
 
 nav{
     display: flex;
     justify-content: center;
     background-color: black;
-    height: 40px;
+    height: 45px;
     position: fixed;
     top: 0;
     left: 0;
