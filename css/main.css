@@ -39,19 +39,19 @@ p {
 }
 
 #intro-p{
-    width: 90%;
+    width: 100%;
+    height: auto;
+    background: darkgrey;
+    margin-top: 0;
 }
 
 #intro-block{
-    background: darkgrey;
     display: flex;
     justify-content: center;
-    grid-template-columns: auto;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
     width: 70%;
-    border: solid #000000 3px;
 }
 
 #intro-image{
@@ -59,9 +59,10 @@ p {
 	height: auto;
 	background: url(../img/me2.jpg) no-repeat center;
 	background-size: cover;
-	margin-right: auto;
-	margin-left: auto;
-    /* border-bottom: 3px solid #000 */
+	margin-right: 0;
+	margin-left: 5%;
+    margin-top: 0;
+    border: solid #000000 3px;
 }
 
 nav{
