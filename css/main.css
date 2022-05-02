@@ -35,16 +35,33 @@ p {
     grid-template-rows: auto;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
+}
+
+#intro-p{
+    width: 90%;
 }
 
 #intro-block{
-    font-size: .6em;
     background: darkgrey;
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding: auto;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    width: 70%;
+    border: solid #000000 3px;
+}
+
+#intro-image{
+    width: 100%;
+	height: auto;
+	background: url(../img/me2.jpg) no-repeat center;
+	background-size: cover;
+	margin-right: auto;
+	margin-left: auto;
+    /* border-bottom: 3px solid #000 */
 }
 
 nav{
