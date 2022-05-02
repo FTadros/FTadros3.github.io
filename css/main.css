@@ -1,0 +1,77 @@
+body {
+  background-color: grey;   
+}
+
+body, input, select, textarea {
+    color: white;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 17pt;
+    font-weight: 600;   
+    letter-spacing: 0.025em;
+    line-height: 1.65;
+    height: 100vh;
+    justify-content: center;
+}
+strong {
+    font-weight: bold;
+}
+h1 {
+    color: black;
+    text-align: left;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+#intro{
+    height: 100%;
+}
+
+#intro-block{
+    font-size: .6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 30%;
+    text-indent: 10%;
+    height: 300%;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#nav-content{
+    display: flex;
+    width: 95%;
+    color: white;
+}
+
+#nav-left {
+    display: flex;
+    width: 38%;
+    align-items: center;
+    align-self: flex-start;
+    height: 100%;
+}
+
+#name {
+    font-size: 30px;
+    font-weight: bold;
+}
