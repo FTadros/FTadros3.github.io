@@ -45,6 +45,11 @@ p {
     margin-top: 0;
 }
 
+#button-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #intro-block{
     display: flex;
     justify-content: center;
@@ -94,4 +99,22 @@ nav{
 #name {
     font-size: 30px;
     font-weight: bold;
+}
+
+.button {
+    background-color: darkgrey;
+    border: solid #000000 3px;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+    border: solid darkgrey 3px;
 }
